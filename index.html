@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shorcout icon" href="img/Screenshot_6.png">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid" id="ox_top">
+        <div class="row">
+            <div class="sale_section">
+                <div class="sale_section_date">
+                    <p>Today deal sale off <span>70%</span>. End in <span>00 days 00:00:00. </span></p>
+                    <a href="#">Hurry up </a>
+                    <i class="fa fa-long-arrow-right hurry_up"></i>
+                </div>
+                
+                <div class="position_right">
+                    <a href="#" >close</a>
+                </div>
+                
+            </div>
+            <div class="ox_header">
+                <div class="ox_header_top">
+                    <div class="top_mail">
+                            <div class="margin_15">
+                                <i class="fa fa-phone"></i>
+                                +01 23456789
+                            </div>
+                            <div class="margin_15">
+                                <i class="fa fa-envelope-o"></i>
+                                <a href="#">kalles@domain.com</a>
+                            </div>
+                    </div>
+                    <div class="top_sale">
+                        <p>Summer sale discount off <span style="color: #EC0101;">50%</span>!</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                    <div class="top_country">
+                        <div class="country_select" onmouseover="addDiv ()" onmouseout="removeDiv()">
+                                <img class="flag_img" src="img/usa.png" alt="photo">
+                                USD
+                                <i class="fa fa-angle-down"></i>
+                                <div class="flags" onmousemove="addDiv ()" onmouseout="removeDiv()">
+                                    <div class="flag_select">
+                                            <img class="flag_img" src="img/aus.png" alt="photo">
+                                            AUD
+                                    </div>
+                                    <div class="flag_select">
+                                            <img class="flag_img" src="img/cad.png" alt="photo">
+                                            CAD
+                                    </div>
+                                    <div class="flag_select">
+                                            <img class="flag_img" src="img/den.png" alt="photo">
+                                            DKK
+                                    </div>
+                                    <div class="flag_select">
+                                            <img class="flag_img" src="img/eur.png" alt="photo">
+                                            EUR
+                                    </div>
+                                    <div class="flag_select">
+                                            <img class="flag_img" src="img/gbr.png" alt="photo">
+                                            GPB
+                                    </div>
+                                    <div class="flag_select">
+                                            <img class="flag_img" src="img/aze.png" alt="photo">
+                                            AZE
+                                    </div>
+                                    <div class="flag_select">
+                                            <img class="flag_img" src="img/usa.png" alt="photo">
+                                            USD
+                                    </div>
+                                </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        
+                        <div class="ox_header_navbar">
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mobil">
+                                <div class="ox_mobil_logo" onclick="createMobil()" >
+                                    <i class="fa fa-bars"></i>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+                                <div class="ox_logo">
+                                    <img class="ox_logo_img" src="img/Screenshot_5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xs-0 col-sm-0 col-md-0 col-lg-8 menu">
+                                <div class="ox_menu">
+                                    <ul class="ox_menu_list">
+                                        <li class="ox_menu_list_item" onmouseout="removeSub()" onmouseover="createSub()">
+                                            <a href="#">Demo</a>
+                                            <div class=" container demo_submenu" onmousemove="createSub()" onmouseout="removeSub()">
+                                                <div class="row">
+                                                    <div class="submenu_div">
+                                                        <ul class="demo_submenu_list">
+                                                            <p>Homepages</p>
+                                                            <li>Home Default</li>
+                                                            <li>Home Classic </li>
+                                                            <li>Home Video Banner</li>
+                                                            <li>Home Categories Links</li>
+                                                            <li>Home Static Image</li>
+                                                            <li>Home Metro</li>
+                                                            <li>Home Lookbook</li>
+                                                            <li>Home Parallax</li>
+                                                            <li>Home Instagram Shop</li>
+                                                            <li>Home Static Image</li>
+                                                            <li>Home electric</li>
+                                                            <li>Home Lookbook</li>
+                                                            <li>Home Default</li>
+                                                            <li>Home Classic </li>
+                                                            <li>Home Video Banner</li>
+                                                            <li>Home Parallax</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="submenu_div">
+                                                        <ul class="demo_submenu_list">
+                                                            <p>Homepages</p>
+                                                            <li>Home Fashion 9</li>
+                                                            <li>Home Fashion 10</li>
+                                                            <li>Home Video Banner</li>
+                                                            <li>Home Categories Links</li>
+                                                            <li>Home Static Image</li>
+                                                            <li>Home electric</li>
+                                                            <li>Home Lookbook</li>
+                                                            <li>Home Parallax</li>
+                                                            <li>Home Instagram Shop</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="submenu_div">
+                                                        <ul class="demo_submenu_list">
+                                                            <p>Homepages</p>
+                                                            <li>Home Default</li>
+                                                            <li>Home Classic </li>
+                                                            <li>Home Video Banner</li>
+                                                            <li>Home Categories Links</li>
+                                                            <li>Home Static Image</li>
+                                                            <li>Home Metro</li>
+                                                            <li>Home Lookbook</li>
+                                                            <li>Home Parallax</li>
+                                                            <li>Home Instagram Shop</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="submenu_div">
+                                                        <ul class="demo_submenu_list">
+                                                            <p>Homepages</p>
+                                                            <li>Home Default</li>
+                                                            <li>Home Classic </li>
+                                                            <li>Home Video Banner</li>
+                                                            <li>Home Categories Links</li>
+                                                            <li>Home Static Image</li>
+                                                            <li>Home Metro</li>
+                                                            <li>Home Lookbook</li>
+                                                            <li>Home Parallax</li>
+                                                            <li>Home Instagram Shop</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="ox_menu_list_item " onmouseout="removeSub1()" onmouseover="createSub1()">
+                                            <a href="#">Shop</a>
+                                            <div class=" container demo_submenu" onmousemove="createSub1()" onmouseout="removeSub1()">
+                                                <div class="submenu_div">
+                                                    <ul class="demo_submenu_list">
+                                                        <p>Homepages</p>
+                                                        <li>Home Default</li>
+                                                        <li>Home Classic </li>
+                                                        <li>Home Video Banner</li>
+                                                        <li>Home Categories Links</li>
+                                                        <li>Home Static Image</li>
+                                                        <li>Home Metro</li>
+                                                        <li>Home Lookbook</li>
+                                                        <li>Home Parallax</li>
+                                                        <li>Home Instagram Shop</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="submenu_div">
+                                                    <ul class="demo_submenu_list">
+                                                        <p>Homepages</p>
+                                                        <li>Home Fashion 9</li>
+                                                        <li>Home Fashion 10</li>
+                                                        <li>Home Video Banner</li>
+                                                        <li>Home Categories Links</li>
+                                                        <li>Home Static Image</li>
+                                                        <li>Home electric</li>
+                                                        <li>Home Lookbook</li>
+                                                        <li>Home Parallax</li>
+                                                        <li>Home Instagram Shop</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="submenu_div woman">
+                                                    <img src="img/women.jpg" alt="photo">
+                                                </div>
+                                                <div class="submenu_div man">
+                                                    <img src="img/men.jpg" alt="photo">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="ox_menu_list_item">
+                                            <a href="#">Product</a>
+                                        </li>
+                                        <li class="ox_menu_list_item">
+                                            <a style="color: red;" href="#">Sale</a>
+                                        </li>
+                                        <li class="ox_menu_list_item">
+                                            <a href="#">Portfolio</a>
+                                        </li>
+                                        <li class="ox_menu_list_item">
+                                            <a href="#">Lookbook</a>
+                                        </li>
+                                        <li class="ox_menu_list_item">
+                                            <a href="#">Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
+                                <div class="ox_icons">
+                                    <i class="fa fa-search"></i>
+                                    <i class="fa fa-user"></i>
+                                    <i class="fa fa-heart"></i>
+                                    <i class="fa fa-shopping-cart"></i>
+                                </div>
+                            </div>
+                            <div class="ox_mobil_menu">
+                                <h2 class="mobil_menu_header">Menu</h2>
+                                <i class="fa fa-times mobil_menu_close" onclick="removeMobil()"></i>
+                                <div class="mobil_menu_items">
+                                    
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <a href="#">Demo</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">Shop</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">Product</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">Sale</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">Portfolio</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">Lookbook</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">
+                                                <i class="fa fa-heart"></i>
+                                                Wishlist
+                                            </a>
+                                        </li >
+                                        <li class="list-group-item">
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                                Search
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="#">
+                                                <i class="fa fa-user"></i>
+                                                Login / Register
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <p>Need help?</p>
+                                            <i class="fa fa-phone"></i>
+                                            +01 23456789
+                                            <br>
+                                            <br>
+                                            <i class="fa fa-envelope-o"></i>
+                                            <a href="#">c@domain.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                       
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="ox_content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="content_top">
+                    <div class="container ">
+                        <div class="row">
+                                <div class="top_src">
+                                    <a href="#">Home </a>&nbsp;&nbsp;
+                                    <i class="fa fa-angle-right"></i>&nbsp;&nbsp;
+                                    <a href="#">Women </a>&nbsp;&nbsp;
+                                    <i class="fa fa-angle-right"></i>&nbsp;&nbsp;
+                                    <p>Striped Long Sleeve Top</p>
+                                </div>
+                              
+                                <div class="top_icons">
+                                    <a href="#">
+                                        <i class="fa fa-chevron-left"></i>
+                                    </a></i>&nbsp;&nbsp;
+                                    <a href="#">
+                                        <i class="fa fa-th-large"></i>
+                                    </a>&nbsp;&nbsp;
+                                    <a href="#">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                        </div>
+                    </div>
+                    <!-- <div class="ox_enlarge">
+                        <a href="#">
+                            <i class="fa fa-arrows-alt "></i>
+                        </a>
+                    </div> -->
+                    
+                </div>
+                <div class="container">
+                   <div class="row">
+                    <div class="content_body">
+                        <div id="myCarousel" class="carousel slide ox_carusel" data-ride="carousel">
+                            <!-- Indicators -->
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img class="ox_img" src="img/thumb-01.jpg" alt="Los Angeles">
+                              </div>
+                          
+                              <div class="item">
+                                <img class="ox_img" src="img/thumb-02.jpg" alt="Chicago">
+                              </div>
+                          
+                              <div class="item">
+                                <img class="ox_img" src="img/thumb-03.jpg" alt="New York">
+                              </div>
+                              <div class="item">
+                                <img class="ox_img" src="img/thumb-04.jpg" alt="New York">
+                              </div>
+                            </div>
+                          
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="col-xs-0 col-sm-6 col-md-6 col-lg-6 img_large">
+                            <div class="row">
+                                <div class="content_img">
+                                    <div class="content_card">
+                                        <img class="card_img" src="img/thumb-01.jpg" alt="photo">
+                                    </div>
+                                    <div class="content_card">
+                                        <img class="card_img" src="img/thumb-02.jpg" alt="photo">
+                                    </div>
+                                    <div class="content_card">
+                                        <img class="card_img" src="img/thumb-03.jpg" alt="photo">
+                                    </div>
+                                    <div class="content_card">
+                                        <img class="card_img" src="img/thumb-04.jpg" alt="photo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6  col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="content_about" onmousemove="addAnime()" onmouseout="removeAnime()">
+                                    <h2 class="about_text">Striped Long Sleeve Top</h2>
+                                    <div class="about_rate">
+                                        <p>
+                                            <del>$45.00</del>
+                                            <ins>$20.00</ins>
+                                        </p>
+                                        <div class="about_review">
+                                            <img src="img/Screenshot_1.png" alt="rate">
+                                            <span>(06 reviews)</span>
+                                        </div>
+                                       
+                                    </div>
+                                    <p class="about_p">Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.</p>
+                                    <div class="about_color">
+                                        <h5 id="color_text">COLOR:PINK</h5>
+                                        <button class="change_color" value="GREY" onclick="changeGrey()"></button>
+                                        <button class="change_color" value="PINK" onclick="changePink()"></button>
+                                        <button class="change_color" value="BLACK" onclick="changeBlack()"></button>
+                                    </div>
+                                    <div class="about_size">
+                                        <h5 id="size_text">SIZE: M</h5>
+                                        <button class="change_size" onclick="changeSize()" value="S">S</button>
+                                        <button class="change_size o_active" onclick="changeSizem()" value="M">M</button>
+                                        <button class="change_size" onclick="changeSizel()" value="L">L</button>
+                                    </div>
+                                    <div class="ox_like">
+                                        <input id="like_num" type="text" value="1" class="content_inp" >
+                                        <i class="fa fa-minus inp_icon"></i>
+                                        <i class="fa fa-plus inp_icon1" onclick="numberAdd()"></i>
+                                        <button class="content_btn">ADD TO CART</button>
+                                        <i class="fa fa-heart content_icon" onclick="likeDress()"></i>
+                                    </div>
+                                    <div class="mc_img">
+                                        <img src="img/Screenshot_2.png" alt="photo">
+                                    </div>
+                                    <div class="about_link">
+                                        <a href="#">Size Guide</a>&nbsp;&nbsp;
+                                        <a href="#">Delivery & Return</a>&nbsp;&nbsp;
+                                        <a href="#">Ask a Question</a>
+                                    </div>
+                                    <div class="about_sku">
+                                        <span>SKU : P15-2</span><br>
+                                        <span>Categories: 
+                                            <a href="#">All,</a>
+                                            <a href="#">Best seller,</a>
+                                            <a href="#">Bottom,</a>
+                                            <a href="#">Dress,</a>
+                                            <a href="#">New Arrival,</a>
+                                            <a href="#">Women</a>
+                                        </span>
+                                        <br>
+                                        <span>Tags: 
+                                            <a href="#">Color Black,</a>
+                                            <a href="#">Color Grey,</a>
+                                            <a href="#">Color Pink,</a>
+                                            <a href="#">Price $7-$50,</a>
+                                            <a href="#">Size L,</a>
+                                            <a href="#">Size M,</a>
+                                            <a href="#">Size S</a>
+                                        </span>
+                                              
+                                    </div>
+                                    <div class="sosial_med">
+                                        <div class="sosial_icon">
+                                            <i class="fa fa-facebook"></i>
+                                        </div>
+                                        <div class="sosial_icon">
+                                            <i class="fa fa-twitter"></i>
+                                        </div>
+                                        <div class="sosial_icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="sosial_icon">
+                                            <i class="fa fa-pinterest-p"></i>
+                                        </div>
+                                        <div class="sosial_icon">
+                                            <i class="fa fa-instagram"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="ox_add">
+                    <h4>Frequently Bought Together</h4>
+                    <div class="add_card">
+                        <img class="add_card_img" src="img/fbt_thumb-01.jpg" alt="">
+                        
+                    </div>
+                    <div class="add_card">
+                        <img class="add_card_img" src="img/fbt_thumb-02.jpg" alt="">
+                        
+                    </div>
+                    <div class="add_card">
+                        <img class="add_card_img" src="img/fbt_thumb-03.jpg" alt="">
+                        
+                    </div>
+                    <div class="add_card">
+                        <img class="add_card_img" src="img/fbt_thumb-04.jpg" alt="">
+                        
+                    </div>
+                   
+                    <div class="add_price">
+                        <span>Total price:
+                            <del>$117.00</del>
+                            <ins class="color_red">$75.00</ins>
+                        </span>
+                        <button>ADD SELECTED TO CART</button>
+                    </div>
+                    <div class="ox_check">
+                        <div class="check_card" >
+                            <input type="checkbox" checked>
+                            <strong> This item:</strong>
+                            <span>Striped Long Sleeve Top </span>
+                            <select name="" id="">
+                                <option value="">BLACK/S</option>
+                                <option value="">BLACK/M</option>
+                                <option value="">BLACK/L</option>
+                            </select>
+                            <del>$45.00</del>
+                            <ins class="color_red">$20.00</ins>
+                        </div>
+                        <div class="check_card">
+                            <input type="checkbox" onclick="addPrice()" checked>
+                            <span> Ritson Original Mom Jeans </span>
+                            <ins class="color_red">$22.00</ins>
+                        </div>
+                        <div class="check_card">
+                            <input type="checkbox" onclick="addPrice1()" checked>
+                            <span> Organza Hair Scrunchie </span>
+                            <del>$5.00</del>
+                            <ins class="color_red">$3.50</ins>
+                        </div>
+                        <div class="check_card">
+                            <input type="checkbox" onclick="addPrice2()" checked>
+                            <span>  Retro Lace Up Sneakers  </span>
+                            <del>$45.00</del>
+                            <ins class="color_red">$30.50</ins>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background: #F6F6F8;">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="ox_container">
+                            <div class="container_mobil_top">
+                                <p>Description</p>
+                                <i class="fa fa-minus"></i>
+                            </div>
+                            <div class="container_top">
+                                <ul class="container_list">
+                                    <li>Description</li>
+                                    <li>Additional Information</li>
+                                    <li>Warranty & Shipping</li>
+                                    <li>Wash & Care</li>
+                                    <li>Reviews</li>
+                                </ul>
+                            </div>
+                            <div class="container_top2">
+                                <p>Design inspiration lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci.</p>
+                            </div>
+                            <div class="container_img">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="container_img_card">
+                                        <img src="img/thumb-01.jpg" alt="photo">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="container_img_card">
+                                        <img src="img/thumb-02.jpg" alt="photo">
+                                    </div>
+
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="container_img_card">
+                                        <img src="img/thumb-03.jpg" alt="photo">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="container_content">
+                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg3">
+                                    <div class="side_imgs">
+                                        <img src="img/Screenshot_3.png" alt="left">
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg6">
+                                    <div class="side_imgs">
+                                        <img src="img/athun.png" alt="t-shirt">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg3">
+                                    <div class="side_imgs">
+                                        <img src="img/Screenshot_4.png" alt="right">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="container_img_section">
+                    <h2>You may also like</h2>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-03.jpg" alt="photo">
+                         
+                        </div>
+                        <p>Ridley High Waist</p>
+                        <span>$36.00</span>
+                    </div>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-s-49.jpg" alt="photo">
+                         
+                        </div>
+                        <p>Skin Sweatpans</p>
+                        <span>
+                            <del>$75.00</del>
+                            <ins class="color_red">$45.00</ins>
+                        </span>
+                    </div>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-21.jpg" alt="photo">
+                         
+                        </div>
+                        <p>Black mountain hat</p>
+                        <span>$50.00</span>
+                    </div>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-31.jpg" alt="photo">
+                         
+                        </div>
+                        <p>Men pants</p>
+                        <span>$49.00 - $56.00</span>
+                    </div>
+                </div>
+                <div class="container_img_section">
+                    <h2>Recently viewed products</h2>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-11.jpg" alt="photo">
+                         
+                        </div>
+                        <p>La Bohème Rose Gold</p>
+                        <span>
+                            <del>$75.00</del>
+                            <ins class="color_red">$45.00</ins>
+                        </span>
+                        
+                    </div>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-s-37.png" alt="photo">
+                         
+                        </div>
+                        <p>Simple Skin T-shirt</p>
+                        <span>$56.00</span>
+                    </div>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-01.jpg" alt="photo">
+                         
+                        </div>
+                        <p>Analogue Resin Strap</p>
+                        <span>$30.00</span>
+                    </div>
+                    <div class="section_card">
+                        <div class="section_card_img">
+                            <img src="img/pr-pin-51.jpg" alt="photo">
+                         
+                        </div>
+                        <p>Stripe Long Sleeve Top</p>
+                        <span>$15.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background: #F6F6F8;">
+            <div class="row">
+                <div class="container">
+                    <div class="ox_footer">
+                        <div class="footer_card">
+                            <img src="img/Screenshot_5.png" alt="">
+                            <br>
+                            <i class="fa fa-map-marker"></i>
+                            <span>184 Main Rd E, St Albans VIC 3021, Australia</span>
+                            <br>
+                            <i class="fa fa-envelope-o"></i>
+                            <span>contact@company.com</span>
+                            <br>
+                            <i class="fa fa-phone"></i>
+                            <span>+001 2233 456</span>
+                            <div class="sosial_med">
+                                <div class="sosial_icon">
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                                <div class="sosial_icon">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                <div class="sosial_icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="sosial_icon">
+                                    <i class="fa fa-pinterest-p"></i>
+                                </div>
+                                <div class="sosial_icon">
+                                    <i class="fa fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_card">
+                            <ul class="footer_list">
+                                <h4>Categories</h4>
+                                <li>Men</li>
+                                <li>Women</li>
+                                <li>Accessories</li>
+                                <li>Shoes</li>
+                                <li>Denim</li>
+                                <li>Dress</li>
+                            </ul>
+                        </div>
+                        <div class="footer_card">
+                            <ul class="footer_list">
+                                <h4>Infomation</h4>
+                                <li>About Us</li>
+                                <li>Contact Us</li>
+                                <li>Terms & Conditions</li>
+                                <li>Returns & Exchanges</li>
+                                <li>Shipping & Delivery</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </div>
+                        <div class="footer_card">
+                            <ul class="footer_list">
+                                <h4>Useful links</h4>
+                                <li>Store Location</li>
+                                <li>Latest News</li>
+                                <li>My Account</li>
+                                <li>Size Guide</li>
+                                <li>FAQs 2 </li>
+                                <li>FAQs</li>
+                            </ul>
+                        </div>
+                        <div class="footer_card">
+                            <h4>Newsletter Signup</h4>
+                            <span>Subscribe to our newsletter and get 10% off your first purchase</span>
+                            <div class="mail_input">
+                                <input  value="">
+                                <button>Subscribe</button>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
+<script src="bootstrap-3.4.1-dist/jquery-3.6.0.min.js"></script>
+<script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- <div class="ox_icons">
+    <i class="fa fa-search"></i>
+    <i class="fa fa-user"></i>
+    <i class="fa fa-heart-o"></i>
+    <i class="fa fa-shopping-cart"></i>
+</div> -->
+<!-- <div class="ox_menu">
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        
+            <li ><a href="#">Demo</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Lookbook</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        
+    </div>
+</div> -->
