@@ -152,3 +152,6 @@ function addPrice2(){
         price3.style.display = "none"
     }
 }
+function closeAdd(){
+    document.getElementsByClassName("sale_section")[0].style.display = "none"
+}
